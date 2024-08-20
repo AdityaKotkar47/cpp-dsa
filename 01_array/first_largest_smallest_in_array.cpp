@@ -2,12 +2,13 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
 
     int n;
     cin >> n;
     int arr[n];
-    int len = sizeof(arr)/sizeof(int);
+    int len = sizeof(arr) / sizeof(int);
     for (size_t i = 0; i < len; i++)
     {
         cin >> arr[i];
@@ -17,11 +18,13 @@ int main() {
 
     for (size_t i = 0; i < len; i++)
     {
-        if (arr[i] > max){
+        if (arr[i] > max)
+        {
             max = arr[i];
             max_idx = i;
         }
-        if (arr[i] < min){
+        if (arr[i] < min)
+        {
             min = arr[i];
             min_idx = i;
         }
@@ -29,9 +32,6 @@ int main() {
 
     cout << max_idx << " " << max << endl;
     cout << min_idx << " " << min << endl;
-    
-    
-    
 
     return 0;
 }

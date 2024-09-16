@@ -1,16 +1,16 @@
-## iterators in C++
+## iterators
 
 - they are objects that allow you to traverse through elements in containers
 - they act as pointers, providing access to container elements and allowing movement from one element to another
 - they are bounded, so safer and limited to specific operations of the respective container
 
-**syntax**:
+### syntax:
 
 ```cpp
 ContainerType<DataType>::iterator it;
 ```
 
-**iterator in action**:
+### iterator in action:
 
 - `container.begin();` - points to the first element in the container
 
@@ -24,7 +24,7 @@ ContainerType<DataType>::iterator it;
 
 - `it++` moves the iterator to the next element.
 
-**example**
+### example:
 
 ```cpp
 unordered_map<string, int> lala;

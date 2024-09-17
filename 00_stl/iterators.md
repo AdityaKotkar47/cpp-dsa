@@ -4,11 +4,13 @@
 - they act as pointers, providing access to container elements and allowing movement from one element to another
 - they are bounded, so safer and limited to specific operations of the respective container
 
+
 ### syntax:
 
 ```cpp
 ContainerType<DataType>::iterator it;
 ```
+
 
 ### iterator in action:
 
@@ -22,7 +24,10 @@ ContainerType<DataType>::iterator it;
     - `it->first` - accesses the key
     - `it->second` - accesses the value
 
-- `it++` moves the iterator to the next element.
+- `it++` moves the iterator to the next element
+
+- `const_iterator` can be used similarly to regular iterators but prevents modification of elements during iteration.
+
 
 ### example:
 

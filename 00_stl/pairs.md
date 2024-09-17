@@ -3,6 +3,7 @@
 - stores two values of different types in a single object/container.
 - represent key-value pairs, coordinates, or any other scenario where you need to associate two values.
 
+
 ### syntax:
 
 ```cpp
@@ -11,10 +12,12 @@ std::pair<T1, T2> myPair;
 
 `T1` and `T2` are the data types of the two elements in the pair.
 
+
 ### access members:
 
 *   `first`: accesses the first element of the pair.
 *   `second`: accesses the second element of the pair.
+
 
 ### example:
 
@@ -31,4 +34,3 @@ cout << r.first << "\t" << r.second << endl;
 cout << s.first << "\t" << s.second.first << "\t" << s.second.second << endl;
 cout << t[0].first << "\t" << t[0].second << "\t" << t[1].first << "\t" << t[1].second << endl;
 ```
-

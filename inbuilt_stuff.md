@@ -10,3 +10,4 @@
 -   - `INT_MIN` is the lowest possible integer value [use for initializing max value variables]
     - `INT_MAX` is the highest possible integer value [use for initializing min value variables]
 
+- `sort(begin_iterator, end_iterator)` - sorts the elements of a container in ascending order

@@ -27,7 +27,7 @@
 
 - `vec.push_back(value)` - adds an element to the end of the vector
 - `vec.emplace_back(value)` - adds an element to the end of the vector
-- `vec.pop_back()` - removes and returns the last element from the vector
+- `vec.pop_back()` - removes the last element from the vector
 - `vec.front()` - returns the first element
 - `vec.back()` - returns the last element
 

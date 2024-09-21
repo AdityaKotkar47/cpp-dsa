@@ -23,4 +23,4 @@
 
 - `q.push(value)` - adds an element to the back of the queue
 - `q.emplace(value)` - constructs an element and inserts it at the back of the queue
-- `q.pop()` - removes and returns the front element from the queue (if not empty)
+- `q.pop()` - removes the front element from the queue (if not empty)

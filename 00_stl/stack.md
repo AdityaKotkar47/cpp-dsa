@@ -20,6 +20,6 @@
 
 - `st.push(value)` - adds an element to the top of the stack
 - `st.emplace(value)` - adds an element to the top of the stack
-- `st.pop()` - removes and returns the top element from the stack
+- `st.pop()` - removes the top element from the stack
 - `st.empty()` - returns `true` if the stack is empty, `false` otherwise
 - `st.size()` - returns the number of elements in the stack

@@ -30,7 +30,7 @@
 - `dq.emplace_back(value)` - adds an element to the end of the deque
 - `dq.push_front(value)` - adds an element to the beginning of the deque
 - `dq.emplace_front(value)` - adds an element to the beginning of the deque
-- `dq.pop_front()` - removes and returns the first element from the deque
-- `dq.pop_back()` - removes and returns the last element from the deque
+- `dq.pop_front()` - removes the first element from the deque
+- `dq.pop_back()` - removes the last element from the deque
 
 - other functions are similar to vectors including but not limited to: `begin()`, `end()`, `rbegin()`, `rend()`, `size()`, `empty()`, `clear()`, `swap()`, `resize()`, `shrink_to_fit()`

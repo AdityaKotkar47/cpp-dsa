@@ -19,7 +19,7 @@
 
 - `pq.push(value)` - adds an element to the priority queue
 - `pq.emplace(value)` - constructs an element and inserts it into the priority queue
-- `pq.pop()` - removes and returns the top element from the priority queue [highest priority in a max-heap, lowest in a min-heap]
+- `pq.pop()` - removes the top element from the priority queue [highest priority in a max-heap, lowest in a min-heap]
 - `pq.top()` - returns the top element without removing it
 - `pq.empty()` - checks if the priority queue is empty
 - `pq.size()` - returns the number of elements in the priority queue

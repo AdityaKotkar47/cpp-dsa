@@ -29,7 +29,7 @@
 - `lst.emplace_back(value)` - adds an element to the end of the list
 - `lst.push_front(value)` - adds an element to the beginning of the list
 - `lst.emplace_front(value)` - adds an element to the beginning of the list
-- `lst.pop_front()` - removes and returns the first element from the list
-- `lst.pop_back()` - removes and returns the last element from the list
+- `lst.pop_front()` - removes the first element from the list
+- `lst.pop_back()` - removes the last element from the list
 
 - other functions are similar to vectors including but not limited to: `begin()`, `end()`, `rbegin()`, `rend()`, `size()`, `empty()`, `clear()`, `swap()`, `resize()`, `shrink_to_fit()`

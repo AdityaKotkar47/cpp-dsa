@@ -44,7 +44,7 @@ int findProfit2(int *stockPrices, int len)
     return maxProfit;
 }
 
-int main(int argc, char **argv)
+int main()
 {
 
     int stockPrices[] = {7, 1, 5, 3, 6, 4};

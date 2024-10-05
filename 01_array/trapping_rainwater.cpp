@@ -43,7 +43,7 @@ int volumeTrappedRainwater(int *barHeights, int len)
 
     return totalVolume;
 }
-int main(int argc, char **argv)
+int main()
 {
 
     int arr[] = {4, 2, 0, 6, 3, 2, 5};

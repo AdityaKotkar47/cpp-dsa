@@ -4,7 +4,8 @@
 
 using namespace std;
 
-void bsort(int *arr, int len){
+void bsort(int *arr, int len)
+{
 
     int temp;
 
@@ -12,19 +13,19 @@ void bsort(int *arr, int len){
     {
         for (size_t j = 1; j < len; j++)
         {
-            if (arr[j] < arr[j-1]){
+            if (arr[j] < arr[j - 1])
+            {
                 temp = arr[j];
-                arr[j] = arr[j-1];
-                arr[j-1] = temp;
+                arr[j] = arr[j - 1];
+                arr[j - 1] = temp;
             }
         }
-        
     }
-    
 }
 
-bool isDups(int *arr, int len){
-    
+bool isDups(int *arr, int len)
+{
+
     bsort(arr, len);
 
     for (size_t i = 0; i < len; i++)
@@ -35,16 +36,17 @@ bool isDups(int *arr, int len){
 
     for (size_t i = 1; i < len; i++)
     {
-        if (arr[i] == arr[i-1]){
+        if (arr[i] == arr[i - 1])
+        {
             return true;
         }
     }
-    
-    
+
     return false;
 }
 
-int main(int argc, char** argv) {
+int main()
+{
 
     int len;
     cin >> len;
@@ -55,12 +57,14 @@ int main(int argc, char** argv) {
         cin >> arr[i];
     }
 
-    if (isDups(arr, len)){
+    if (isDups(arr, len))
+    {
         cout << "true" << endl;
-    } else {
+    }
+    else
+    {
         cout << "false" << endl;
     }
-    
 
     return 0;
 }

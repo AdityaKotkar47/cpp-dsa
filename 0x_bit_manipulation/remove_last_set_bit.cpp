@@ -2,7 +2,8 @@
 
 using namespace std;
 
-int main(int argc, char** argv) {
+int main()
+{
 
     // the rightmost set bit will be removed
     // when 1 is subtracted from it, all bits to the right of it will flip including itself

@@ -7,10 +7,12 @@
 
 ### initializations:
 
-- `vector<DataType> vec` - creates an empty vector
+- `vector<DataType> vec` - creates an empty vector [can be initialized  with initializer lists]
 - `vector<DataType> vec(size)` - creates a vector with `size` elements
 - `vector<DataType> vec(size, value)` - creates a vector with `size` elements, each initialized to `value`
 - `vector<DataType> vec(vec2)` - creates a vector with the same elements as `vec2`>
+- `vector<vector<DataType>> matrix` - creates an empty 2d vector [can be initialized with initializer list of lists]
+- `vector<vector<DataType>> matrix(rows, vector<DataType>(cols))` - creates a 2d vector with `rows` rows and `cols` columns
 
 
 ### access members:

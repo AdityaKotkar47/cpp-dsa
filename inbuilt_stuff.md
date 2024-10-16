@@ -11,7 +11,7 @@
     - `INT_MAX` is the highest possible integer value [use for initializing min value variables]
 
 -   - `sort(begin_iterator, end_iterator)` - sorts the elements of a container in ascending order
-    - `sort(begin_iterator, end_iterator, greater<int>)` - sorts the elements of a container in descending order
+    - `sort(begin_iterator, end_iterator, greater<int>())` - sorts the elements of a container in descending order
 
 -   - `max_element(begin_iterator, end_iterator)` - returns an iterator to the maximum element in a container
     - `min_element(begin_iterator, end_iterator)` - returns an iterator to the minimum element in a container

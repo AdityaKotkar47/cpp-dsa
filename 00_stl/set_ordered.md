@@ -22,8 +22,8 @@
 - `s.insert(value)` - adds an element to the set
 - `s.emplace(value)` - constructs an element and adds it to the set
 - `s.count(value)` - returns the number of occurrences of `value` [returns `0` if not found, `1` otherwise]
-- `s.erase(value)` - removes an element from the set
-- `s.erase(iterator)` - removes an element from the set
+- `s.erase(value)` - removes an element from the set and returns an iterator following the last removed element
+- `s.erase(iterator)` - removes an element from the set and returns an iterator following the last removed element
 - `s.erase(it1, it2)` - removes a range of elements from the set `[it1, it2)`
 - `s.clear()` - removes all elements from the set
 - `s.size()` - returns the number of elements in the set

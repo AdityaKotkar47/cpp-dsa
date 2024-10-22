@@ -23,9 +23,9 @@
 
 - same as set
 - `ms.insert(value)` - adds an element to the multiset (allows duplicates)
-- `ms.erase(value)` - removes all instances of an element from the multiset
-- `ms.erase(iterator)` - removes an element from the multiset
-- `ms.erase(it1, it2)` - removes a range of elements from the multiset `[it1, it2)`
+- `ms.erase(value)` - removes all instances of an element from the multiset and returns an iterator following the last removed element
+- `ms.erase(iterator)` - removes an element from the multiset and returns an iterator following the last removed element
+- `ms.erase(it1, it2)` - removes a range of elements from the multiset `[it1, it2)` and returns an iterator following the last removed element
 - `ms.clear()` - removes all elements from the multiset
 - `ms.size()` - returns the number of elements in the multiset
 - `ms.empty()` - checks if the multiset is empty

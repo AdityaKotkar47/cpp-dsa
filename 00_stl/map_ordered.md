@@ -34,9 +34,9 @@
 - `m.insert({key, value})` - adds a new key-value pair to the map, if the key already exists, the insertion is ignored
 - `m.insert(make_pair(key, value))` - adds a new key-value pair to the map, if the key already exists, the insertion is ignored
 - `m.emplace(key, value)` - constructs and adds a new key-value pair to the map
-- `m.erase(key)` - removes the element associated with `key`.
-- `m.erase(iterator)` - removes the element at the position pointed to by the iterator
-- `m.erase(it1, it2)` - removes a range of elements from the map `[it1, it2)`.
+- `m.erase(key)` - removes the element associated with `key` and returns an iterator following the last removed element
+- `m.erase(iterator)` - removes the element at the position pointed to by the iterator and returns an iterator following the last removed element
+- `m.erase(it1, it2)` - removes a range of elements from the map `[it1, it2)` and returns an iterator following the last removed element
 - `m.clear()` - removes all elements from the map
 - `m.size()` - returns the number of elements in the map
 - `m.empty()` - checks if the map is empty

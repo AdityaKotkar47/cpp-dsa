@@ -23,9 +23,9 @@
 
 - `mm.insert(make_pair(key, value))` - adds a new key-value pair to the multimap
 - `mm.emplace(key, value)` - constructs and adds a new key-value pair to the multimap
-- `mm.erase(key)` - removes all elements associated with the given `key`
-- `mm.erase(iterator)` - removes the element at the position pointed to by the iterator
-- `mm.erase(it1, it2)` - removes a range of elements from the multimap `[it1, it2)`
+- `mm.erase(key)` - removes all elements associated with the given `key` and returns an iterator following the last removed element
+- `mm.erase(iterator)` - removes the element at the position pointed to by the iterator and returns an iterator following the last removed element
+- `mm.erase(it1, it2)` - removes a range of elements from the multimap `[it1, it2)` and returns an iterator following the last removed element
 - `mm.clear()` - removes all elements from the multimap
 - `mm.size()` - returns the number of elements in the multimap
 - `mm.empty()` - checks if the multimap is empty

@@ -25,8 +25,8 @@
 
 - `um.insert(make_pair(key, value))` - adds a new key-value pair to the unordered map, if the key already exists, the insertion is ignored
 - `um.emplace(key, value)` - constructs and adds a new key-value pair to the unordered map
-- `um.erase(key)` - removes the element associated with `key`
-- `um.erase(iterator)` - removes the element at the position pointed to by the iterator
+- `um.erase(key)` - removes the element associated with `key` and returns an iterator following the last removed element
+- `um.erase(iterator)` - removes the element at the position pointed to by the iterator and returns an iterator following the last removed element
 - `um.clear()` - removes all elements from the unordered map
 - `um.size()` - returns the number of elements in the unordered map
 - `um.empty()` - checks if the unordered map is empty

@@ -47,7 +47,7 @@
 
 ### modifiers:
 
-- `vec.erase(it)` - removes the element at `it`
+- `vec.erase(it)` - removes the element at `it` and returns an iterator following the last removed element
 - `vec.erase(it, it2)` - removes the elements in the range `[it, it2)`
 - `vec.insert(it, value)` - inserts `value` before `it`
 - `vec.insert(it, count, value)` - inserts `count` copies of value before `it`

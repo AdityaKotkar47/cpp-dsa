@@ -2,7 +2,8 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
 
     // char word[10];
     // cin >> word; // ignores after whitespace, but null char gets added here

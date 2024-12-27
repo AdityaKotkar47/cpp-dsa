@@ -20,3 +20,23 @@
     - `__builtin_popcountll()` - returns the number of set bits in a long long integer
 
 - `next_permutation(begin_iterator, end_iterator)` - generates the next lexicographically greater permutation of a container
+
+- `gcd(a, b)` - returns the greatest common divisor of two numbers
+    - for finding gcd of multiple numbers, use `gcd(a, gcd(b, c))`
+    - for finding gcd of a range of numbers, use
+        ```cpp
+        int g = a[0];
+        for (int i = 1; i < n; i++) {
+            g = gcd(g, a[i]);
+        }
+        ```
+
+- `lcm(a, b)` - returns the least common multiple of two numbers
+    - for finding lcm of multiple numbers, use `lcm(a, lcm(b, c))`
+    - for finding lcm of a range of numbers, use
+        ```cpp
+        int l = a[0];
+        for (int i = 1; i < n; i++) {
+            l = lcm(l, a[i]);
+        }
+        ```

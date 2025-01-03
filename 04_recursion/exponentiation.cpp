@@ -24,6 +24,22 @@ int exp2(int x, int n) {
     return exp2(x, n/2) * exp2(x, n/2);
 }
 
+int exp3(int x, int n) {
+
+    // base case
+    if (n == 0) return 1;
+
+    int half = exp3(x, n/2);
+    int halfSquare = half * half;
+
+    // if n is odd
+    if (n & 1)
+        return halfSquare * x;
+
+    // if n is even
+    return halfSquare;
+}
+
 int main() {
 
     // for x^n

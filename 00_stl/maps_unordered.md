@@ -61,3 +61,5 @@ int main() {
     return 0;
 }
 ```
+
+- so basically, it is stored by using the hash function, hence we need to make sure that the keys can be hashed using the hash function

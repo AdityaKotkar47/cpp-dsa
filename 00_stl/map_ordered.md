@@ -30,7 +30,7 @@
 
 ### operations:
 
--`m[key] = value` - adds a new key-value pair to the map
+- `m[key] = value` - adds a new key-value pair to the map
 - `m.insert({key, value})` - adds a new key-value pair to the map, if the key already exists, the insertion is ignored
 - `m.insert(make_pair(key, value))` - adds a new key-value pair to the map, if the key already exists, the insertion is ignored
 - `m.emplace(key, value)` - constructs and adds a new key-value pair to the map
@@ -78,3 +78,5 @@ int main() {
     return 0;
 }
 ```
+
+- so basically, it is stored by comparing the keys using the less than operator, hence we need to make sure that the keys are comparable using the less than operator

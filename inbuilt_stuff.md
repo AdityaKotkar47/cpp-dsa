@@ -41,3 +41,16 @@
             l = lcm(l, a[i]);
         }
         ```
+
+- `rotate(begin_iterator, middle_iterator, end_iterator)` - rotates the elements of a container
+    - for rotating a range of elements to the left, use
+        ```cpp
+        rotate(a.begin(), a.begin() + k, a.end());
+        ```
+    - for rotating a range of elements to the right, use
+        ```cpp
+        rotate(a.rbegin(), a.rbegin() + k, a.rend());
+        ```
+
+-   - `upper_bound(begin_iterator, end_iterator, value)` - returns an iterator to the first element in a container that is greater than the given value [subtract the iterator by the begin iterator to get the index]
+    - `lower_bound(begin_iterator, end_iterator, value)` - returns an iterator to the first element in a container that is not less than the given value [subtract the iterator by the begin iterator to get the index]

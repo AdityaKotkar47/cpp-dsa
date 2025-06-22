@@ -20,6 +20,12 @@
 -   - `__builtin_popcount()` - returns the number of set bits in an integer
     - `__builtin_popcountll()` - returns the number of set bits in a long long integer
 
+- `accumulate(begin_iterator, end_iterator, initial_value)` - calculates the prefix sum of a container
+    - for calculating prefix sum of a range of elements, use
+        ```cpp
+        accumulate(a.begin() + l, a.begin() + r + 1, 0);
+        ```
+
 - `next_permutation(begin_iterator, end_iterator)` - generates the next lexicographically greater permutation of a container
 
 - `gcd(a, b)` - returns the greatest common divisor of two numbers
